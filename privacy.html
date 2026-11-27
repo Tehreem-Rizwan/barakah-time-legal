@@ -4,7 +4,7 @@
 <body><main>
 <header><a href="index.html">Barakah Time</a></header>
 <h1>Privacy Policy</h1>
-<p class="muted">Effective date: 16 November 2026</p>
+<p class="muted">Effective date: 27 November 2026</p>
 
 <p>This policy explains what information the Barakah Time app ("the app", "we") collects, why, and what choices you have. Barakah Time is developed by Tehreem Rizwan, an individual developer in Pakistan.</p>
 
@@ -17,14 +17,14 @@
 <tr><th>Information</th><th>When</th><th>Why</th></tr>
 <tr><td>Name, email address and sign-in ID</td><td>When you create an account or sign in with Google or email</td><td>To give you an account and keep your data in sync across devices</td></tr>
 <tr><td>Profile photo (optional)</td><td>Only if you choose to add one</td><td>To show it in your profile</td></tr>
-<tr><td>Your worship records: prayers you log, Qaza (missed prayer) counts, Ramadan fasting log, tasbeeh count, saved verses, badges and app settings</td><td>When you use these features while signed in</td><td>To save your progress and restore it on another device</td></tr>
+<tr><td>Your worship records: prayers you log, Quran reading and recitations you mark as read, Qaza (missed prayer) counts, Ramadan fasting log, tasbeeh count, saved verses, badges and app settings</td><td>When you use these features while signed in</td><td>To save your progress and restore it on another device</td></tr>
 <tr><td>Esaal-e-Sawab pages: the name of the deceased person, optional relation and date of passing, dhikr goals, and contributions (your display name with the paras, dhikr counts and good deeds you add)</td><td>Only if you create or join such a page</td><td>To share the page with the people you invite</td></tr>
 <tr><td>Location (approximate or precise)</td><td>Only if you allow location access</td><td>To calculate prayer times, the Qibla direction and to find nearby mosques</td></tr>
 </table>
-<p>Without an account ("guest mode"), your data stays only on your device.</p>
+<p>Without an account, your data stays only on your device.</p>
 
 <h2>2. How location is used</h2>
-<p>Prayer times and the Qibla direction are calculated on your device. Your location is not stored on our servers. When you open the mosque finder, your coordinates are sent to the public OpenStreetMap Overpass service to look up nearby mosques. When you type a city name, your device's geocoding service may be used to convert it to coordinates. You can instead enter your location manually and deny location access.</p>
+<p>Prayer times and the Qibla direction are calculated on your device. Your GPS location is kept on your device and is not stored on our servers. If you are signed in and set your location manually, that city and its coordinates are saved with your settings in your account so they sync to your other devices. To show the name of your city, your coordinates are sent to your device's geocoding service, or to the public OpenStreetMap Nominatim service if that is unavailable; the last city name found is kept on your device. When you open the mosque finder, your coordinates are sent to the public OpenStreetMap Overpass service to look up nearby mosques. When you type a city name, your device's geocoding service may be used to convert it to coordinates. You can instead enter your location manually and deny location access.</p>
 
 <h2>3. Esaal-e-Sawab pages are shared</h2>
 <p>An Esaal-e-Sawab page can be opened by anyone who is signed in and has its 8-character code. Everyone with the code can see the page details and the names that contributors use, together with their contributions. Pages cannot be searched or listed. Only share the code with people you trust. The person who created a page can delete it at any time.</p>
@@ -34,8 +34,9 @@
 <li><strong>Google Firebase</strong> (Authentication and Cloud Firestore) to sign you in and store your account data. <a href="https://firebase.google.com/support/privacy">Firebase privacy</a></li>
 <li><strong>Supabase</strong> to store profile photos. Profile photos are stored at a public web address so the app can display them. <a href="https://supabase.com/privacy">Supabase privacy</a></li>
 <li><strong>Google Sign-In</strong> if you choose to sign in with Google.</li>
-<li><strong>Al Quran Cloud</strong> (alquran.cloud) for Quran text, translations and recitation audio.</li>
-<li><strong>OpenStreetMap Overpass API</strong> for nearby mosques.</li>
+<li><strong>Al Quran Cloud</strong> (alquran.cloud) for Quran text, translations and recitation audio. Recitations you listen to are saved on your device so they play offline; the oldest are removed automatically.</li>
+<li><strong>Google Fonts</strong> to download the app's fonts, including the Quran font you choose. <a href="https://developers.google.com/fonts/faq/privacy">Google Fonts privacy</a></li>
+<li><strong>OpenStreetMap</strong> (Overpass API for nearby mosques, Nominatim to show your city name). <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap privacy</a></li>
 </ul>
 <p>These services receive only what they need to work (for example your IP address when your device connects to them) and handle it under their own privacy policies.</p>
 
@@ -48,7 +49,7 @@
 </ul>
 
 <h2>6. Notifications</h2>
-<p>Prayer, sehri/iftar and remembrance-day reminders are scheduled on your device. You can turn them off in the app settings or in your phone's settings.</p>
+<p>Prayer, sehri/iftar and remembrance-day reminders, and the optional night-recitation and Surah Al-Kahf reminders, are scheduled on your device. You can turn them off in the app settings or in your phone's settings.</p>
 
 <h2 id="delete">7. Deleting your account and data</h2>
 <p>In the app, open <strong>Profile → Delete account</strong>. This permanently deletes your account, your synced data, your profile photo and any Esaal-e-Sawab pages you created. Pages created by other people stay, but you can remove them from your list.</p>
@@ -68,4 +69,5 @@
 
 <h2>12. Contact</h2>
 <p>Tehreem Rizwan, Pakistan<br>Email: <a href="mailto:its.tehreem2830@gmail.com">its.tehreem2830@gmail.com</a></p>
+<p>If you use <strong>Send feedback</strong> in the app, your email app opens a message to this address. We receive your email address and what you write, plus the app version and your phone's operating system version, which the app adds to help us fix problems. We use this only to reply to you and improve the app.</p>
 </main></body></html>
